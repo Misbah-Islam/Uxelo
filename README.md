@@ -5,7 +5,8 @@
 Uxelo is an AI-powered UI/UX analysis platform. Upload a screenshot of any screen and Uxelo runs a targeted, automated inspection across accessibility, layout, and visual hierarchy guidelines — no manual checklists, no guesswork.
 
 <p align="center">
-  PASTE_SCREENSHOT_1
+  <img width="1366" height="634" alt="image" src="https://github.com/user-attachments/assets/70e60001-8038-422c-872f-0644c36ea8fe" />
+
 </p>
 
 <p align="center">
