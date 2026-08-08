@@ -1,356 +1,164 @@
-<div align="center">
+# Uxelo
 
-# UXelo
+**Get an expert-level UI/UX audit of any screenshot in seconds.**
 
-### AI-Powered UI/UX Intelligence Platform
+Uxelo is an AI-powered UI/UX analysis platform. Upload a screenshot of any screen and Uxelo runs a targeted, automated inspection across accessibility, layout, and visual hierarchy guidelines — no manual checklists, no guesswork.
 
-**Analyze. Understand. Improve.**
-
-<p>
-  <a href="https://uxelo-web-project-1nos.vercel.app/">🌐 Live Demo</a>
-  •
-  <a href="#-features">Features</a>
-  •
-  <a href="#-tech-stack">Tech Stack</a>
+<p align="center">
+  <img src="./screenshots/01-landing.png" alt="Uxelo Landing Page" width="800"/>
 </p>
 
-</div>
+<p align="center">
+  <a href="https://uxelo-web-project-1nos.vercel.app/"><b>🚀 Live Demo</b></a> ·
+  <a href="#getting-started"><b>Setup Guide</b></a> ·
+  <a href="#features"><b>Features</b></a>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Live-Vercel-black?logo=vercel" alt="Vercel"/>
+  <img src="https://img.shields.io/badge/Stack-MERN-green" alt="MERN Stack"/>
+  <img src="https://img.shields.io/badge/AI-Gemini%20Vision-blue?logo=googlegemini" alt="Gemini Vision"/>
+  <img src="https://img.shields.io/badge/Status-Active-success" alt="Status"/>
+</p>
 
 ---
 
-## ✨ What is UXelo?
+## 📖 Overview
 
-UXelo is an AI-powered UI/UX intelligence platform designed to analyze website interfaces and transform visual design problems into actionable insights.
-
-Instead of manually reviewing every aspect of a website, UXelo brings multiple UX evaluation dimensions into one intelligent analysis experience.
-
-It helps identify potential issues related to:
-
-* 🎯 User Experience
-* 🎨 User Interface
-* ♿ Accessibility
-* 🔤 Typography
-* 📐 Spacing & Visual Hierarchy
-* 📖 Readability
-* 🖱️ CTA Effectiveness
-* ⭐ Trust & Visual Credibility
-* 🧠 AI-Powered Recommendations
-
----
-
-## 🚀 Why UXelo?
-
-A website can look visually attractive while still providing a poor user experience.
-
-UXelo focuses on going beyond visual appearance by helping users understand **what may be wrong with an interface, why it matters, and how it can be improved.**
-
-The goal is to make UX evaluation more accessible, structured, and actionable.
-
----
+Manually auditing a product's UI/UX for accessibility and design consistency is slow and inconsistent. Uxelo automates this process: it takes static screenshots or mockups and runs them through a visual analyzer powered by **Gemini Vision**, producing a diagnostic report with concrete, prioritized, page-level recommendations — in seconds instead of hours.
 
 ## ✨ Features
 
-| Feature                      | Description                                                 |
-| ---------------------------- | ----------------------------------------------------------- |
-| 🎯 **UX Analysis**           | Evaluates important aspects of the overall user experience  |
-| 🎨 **UI Analysis**           | Reviews visual interface quality and consistency            |
-| ♿ **Accessibility Analysis** | Identifies potential accessibility concerns                 |
-| 🔤 **Typography Analysis**   | Evaluates typography, hierarchy, and readability            |
-| 📐 **Spacing & Layout**      | Reviews spacing, alignment, and visual hierarchy            |
-| 📖 **Readability**           | Identifies factors that can affect content readability      |
-| 🖱️ **CTA Analysis**         | Evaluates CTA visibility, clarity, and effectiveness        |
-| ⭐ **Trust Analysis**         | Reviews visual elements that contribute to user trust       |
-| 🧠 **AI Recommendations**    | Provides actionable suggestions for improving the interface |
+- **Instant Visual Audits** — Submit a screenshot and get an inspection covering accessibility, layout, and hierarchy in seconds.
+- **UI & UX Scoring** — Every screen is scored out of 100 on both UI and UX, with an aggregated project-level average.
+- **Multi-Page Projects** — Group related screens (Homepage, Dashboard, Checkout, Settings, etc.) into a single project and track them together.
+- **Prioritized Recommendations** — Findings are automatically split into **Quick Wins** (easy, high-impact fixes) and **High Priority** issues (critical fixes needed).
+- **PDF Report Export** — Export a full diagnostic report for an entire project, or export a report for a single screenshot — both as downloadable PDFs.
+- **Workspace Dashboard** — A clean console showing all your projects, their analysis status, and overall scores at a glance.
+- **Authentication** — Secure sign-in with email/password (JWT) or Google OAuth.
+- **Dark Mode** — Full dark mode support across the app.
+- **Free Plan Limits** — 5 projects and 5 screenshots per project on a rolling 24-hour window.
 
----
+## 🖼️ Screenshots
+
+| Workspace Dashboard | Diagnostic Report |
+|---|---|
+| ![Dashboard](./screenshots/02-dashboard.png) | ![Diagnostic Report](./screenshots/03-diagnostic-report.png) |
+
+| Quick Wins & High Priority | Per-Page Breakdown |
+|---|---|
+| ![Quick Wins](./screenshots/04-quick-wins-priority.png) | ![Project Pages](./screenshots/05-project-pages.png) |
 
 ## 🧠 How It Works
 
-UXelo follows a simple analysis workflow:
-
-```text
-        Website / Interface
-                │
-                ▼
-         UXelo Analysis
-                │
-                ▼
-       Issue Identification
-                │
-                ▼
-        UX / UI Insights
-                │
-                ▼
-       AI Recommendations
-                │
-                ▼
-          Better Design
-```
-
-The platform turns a website interface into structured UX insights that can help guide design improvements.
-
----
-
-## 📊 What UXelo Evaluates
-
-UXelo is designed around multiple dimensions of interface quality:
-
-### 🎨 Visual Design
-
-* Visual hierarchy
-* Layout organization
-* Consistency
-* Balance
-* Spacing
-
-### 🔤 Typography & Content
-
-* Typography hierarchy
-* Font sizing
-* Readability
-* Content organization
-
-### ♿ Accessibility
-
-* Accessibility considerations
-* Contrast and readability
-* Interaction clarity
-* Inclusive design principles
-
-### 🖱️ Conversion & Interaction
-
-* CTA visibility
-* CTA clarity
-* Interaction friction
-* User guidance
-
-### ⭐ Trust & Credibility
-
-* Visual credibility
-* Professional presentation
-* Trust signals
-* Interface consistency
-
----
-
-## 📸 Screenshots
-
-> Screenshots of the actual UXelo application will be added here.
-
-### Landing Page
-
-<!-- Add your screenshot here -->
-
-### Analysis Dashboard
-
-<!-- Add your screenshot here -->
-
-### UX Analysis
-
-<!-- Add your screenshot here -->
-
-### AI Recommendations
-
-<!-- Add your screenshot here -->
-
----
+1. **Create a project** and give it a name.
+2. **Upload screenshots** of the screens you want audited (up to 5 per project on the free plan).
+3. Uxelo's analyzer inspects each screenshot against accessibility, layout, and hierarchy guidelines using Gemini Vision.
+4. View **UI and UX scores** per page and across the whole project.
+5. Review issues sorted into **Quick Wins** and **High Priority**, each tagged to the page it belongs to.
+6. **Export a PDF report** — for the full project or for a single screenshot — to share with your team.
 
 ## 🛠️ Tech Stack
 
-The project is built using modern web technologies.
+**Frontend**
+- React + Vite
+- Tailwind CSS
+- Framer Motion
 
-### Frontend
+**Backend**
+- Node.js + Express
+- MongoDB
 
-* React
-* Vite
-* Modern UI technologies
+**AI / Analysis**
+- Gemini Vision API (`gemini-2.0-flash`)
 
-### Backend
-
-* Node.js
-* Express.js
-
-### AI / Analysis
-
-* AI-powered interface analysis
-* Intelligent UX recommendation system
-
-### Deployment
-
-* Vercel
-
-> The exact technology stack and architecture will be documented in more detail as the project evolves.
-
----
-
-## 🏗️ Project Architecture
-
-The overall architecture follows a client → analysis → intelligence workflow:
-
-```text
-┌─────────────────────┐
-│      User /         │
-│   Website Input     │
-└──────────┬──────────┘
-           │
-           ▼
-┌─────────────────────┐
-│   UXelo Frontend    │
-│    React / Vite     │
-└──────────┬──────────┘
-           │
-           ▼
-┌─────────────────────┐
-│    Backend / API    │
-└──────────┬──────────┘
-           │
-           ▼
-┌─────────────────────┐
-│   UX / UI Analysis  │
-└──────────┬──────────┘
-           │
-           ▼
-┌─────────────────────┐
-│   AI Intelligence   │
-└──────────┬──────────┘
-           │
-           ▼
-┌─────────────────────┐
-│ Recommendations &   │
-│     Insights        │
-└─────────────────────┘
-```
-
----
+**Infrastructure**
+- Cloudinary — image storage
+- JWT + Google OAuth — authentication
+- Vercel — deployment
 
 ## 🚀 Getting Started
 
 ### Prerequisites
+- Node.js (v18+)
+- MongoDB instance (local or Atlas)
+- Gemini API key
+- Cloudinary account
+- Google OAuth credentials
 
-Make sure you have the following installed:
-
-* [Node.js](https://nodejs.org/)
-* npm
-* Git
-
-### Clone the Repository
+### Installation
 
 ```bash
-git clone YOUR_REPOSITORY_URL
-cd uxelo
+# Clone the repository
+git clone https://github.com/Misbah-Islam/Uxelo.git
+cd Uxelo
 ```
 
-### Install Dependencies
-
+**Backend setup**
 ```bash
+cd server
 npm install
 ```
 
-### Run the Development Server
+Create a `.env` file inside `server/`:
+```env
+PORT=5000
+MONGO_URI=your_mongodb_connection_string
+JWT_SECRET=your_jwt_secret
+GEMINI_API_KEY=your_gemini_api_key
+CLOUDINARY_CLOUD_NAME=your_cloudinary_cloud_name
+CLOUDINARY_API_KEY=your_cloudinary_api_key
+CLOUDINARY_API_SECRET=your_cloudinary_api_secret
+GOOGLE_CLIENT_ID=your_google_oauth_client_id
+GOOGLE_CLIENT_SECRET=your_google_oauth_client_secret
+```
 
 ```bash
 npm run dev
 ```
 
-The application will be available on your local development server.
-
----
-
-## 🔐 Environment Variables
-
-If you are running the complete application locally, create a `.env` file and configure the required environment variables.
-
-Example:
-
-```env
-# API configuration
-YOUR_API_VARIABLE=
-
-# AI configuration
-YOUR_AI_API_KEY=
-
-# Database configuration
-YOUR_DATABASE_URL=
+**Frontend setup**
+```bash
+cd ../client
+npm install
 ```
 
-> Never commit private API keys, database credentials, or other sensitive environment variables to GitHub.
+Create a `.env` file inside `client/`:
+```env
+VITE_API_BASE_URL=http://localhost:5000
+VITE_GOOGLE_CLIENT_ID=your_google_oauth_client_id
+```
+
+```bash
+npm run dev
+```
+
+The app will be available at `http://localhost:5173`.
+
+## 🌐 Live Demo
+
+Try it here: **[uxelo-web-project-1nos.vercel.app](https://uxelo-web-project-1nos.vercel.app/)**
+
+## 📁 Project Structure
+
+```
+Uxelo/
+├── client/          # React + Vite frontend
+└── server/          # Node/Express backend
+```
+
+## 📌 Roadmap
+
+- [ ] Paid tiers with higher project/screenshot limits
+- [ ] Team workspaces
+- [ ] Historical trend tracking per project
+- [ ] Figma plugin integration
+
+## 👤 Author
+
+**Misbah Islam**
+[GitHub](https://github.com/Misbah-Islam) · [Live Project](https://uxelo-web-project-1nos.vercel.app/)
 
 ---
 
-## 🗺️ Roadmap
-
-* [x] UXelo product concept
-* [x] AI-powered UX analysis
-* [x] UI/UX evaluation workflow
-* [x] Actionable UX recommendations
-* [ ] Advanced accessibility analysis
-* [ ] Website comparison
-* [ ] Historical UX score tracking
-* [ ] Automated UX reports
-* [ ] Design improvement suggestions
-* [ ] Advanced UX benchmarking
-* [ ] Team collaboration features
-
----
-
-## 🔮 Future Improvements
-
-UXelo can evolve into a complete UX intelligence platform with capabilities such as:
-
-* 📊 UX benchmarking
-* 🔄 Historical analysis tracking
-* 🔍 Website-to-website comparison
-* 📄 Exportable UX reports
-* ♿ Advanced WCAG evaluation
-* 🎨 Automated design improvement suggestions
-* 🧩 Design-system consistency analysis
-* 👥 Team collaboration
-* 📈 UX performance tracking
-
----
-
-## 🤝 Contributing
-
-Contributions, ideas, and feedback are welcome.
-
-If you have an idea for improving UXelo:
-
-1. Fork the repository
-2. Create a new branch
-3. Make your changes
-4. Commit your changes
-5. Open a Pull Request
-
----
-
-## 📄 License
-
-This project is currently available for portfolio and educational purposes.
-
-A formal open-source license can be added in the future.
-
----
-
-## 👩‍💻 Author
-
-### Misbah Islam
-
-**BSCS Student | Flutter Developer | MERN Stack Developer**
-
-Building projects at the intersection of software development, AI, and user experience.
-
-<p>
-  <a href="YOUR_LINKEDIN_URL">LinkedIn</a>
-  •
-  <a href="YOUR_GITHUB_URL">GitHub</a>
-</p>
-
----
-
-<div align="center">
-
-### UXelo
-
-**Analyze. Understand. Improve.**
-
-</div>
+<p align="center">Built with ❤️ using the MERN stack and Gemini Vision</p>
