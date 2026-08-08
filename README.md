@@ -43,11 +43,15 @@ Manually auditing a product's UI/UX for accessibility and design consistency is 
 
 | Workspace Dashboard | Diagnostic Report |
 |---|---|
-| PASTE_SCREENSHOT_2 | PASTE_SCREENSHOT_3 |
+| <img width="1363" height="637" alt="image" src="https://github.com/user-attachments/assets/94f3916b-4366-4859-bcb4-5894dd17e1d1" />
+ | <img width="1366" height="634" alt="image" src="https://github.com/user-attachments/assets/8f4f68e4-63df-4699-bbf9-37bf2528846f" />
+ |
 
 | Quick Wins & High Priority | Per-Page Breakdown |
 |---|---|
-| PASTE_SCREENSHOT_4 | PASTE_SCREENSHOT_5 |
+| <img width="1366" height="632" alt="image" src="https://github.com/user-attachments/assets/b1fcf20c-bf32-4972-87fe-a67d4778a59c" />
+ | <img width="1366" height="639" alt="image" src="https://github.com/user-attachments/assets/e932c05c-63a2-4dfd-836e-8eaadd0c4360" />
+ |
 
 ## 🧭 How It Works
 
@@ -103,6 +107,7 @@ Try it here: **[uxelo-web-project-1nos.vercel.app](https://uxelo-web-project-1no
 ## 👤 Author
 
 **Misbah Islam**
+BSCS Student | Flutter Developer | MERN Stack Developer
 [GitHub](https://github.com/Misbah-Islam) · [Live Project](https://uxelo-web-project-1nos.vercel.app/)
 
 ---
