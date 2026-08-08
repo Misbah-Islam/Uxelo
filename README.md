@@ -5,8 +5,7 @@
 Uxelo is an AI-powered UI/UX analysis platform. Upload a screenshot of any screen and Uxelo runs a targeted, automated inspection across accessibility, layout, and visual hierarchy guidelines — no manual checklists, no guesswork.
 
 <p align="center">
-  <img width="1266" alt="Uxelo Landing Page" src="https://github.com/user-attachments/assets/70e60001-8038-422c-872f-0644c36ea8fe" />
-
+  <img width="800" alt="Uxelo Landing Page" src="https://github.com/user-attachments/assets/70e60001-8038-422c-872f-0644c36ea8fe" />
 </p>
 
 <p align="center">
@@ -43,16 +42,12 @@ Manually auditing a product's UI/UX for accessibility and design consistency is 
 ## 🖼️ Screenshots
 
 | Workspace Dashboard | Diagnostic Report |
-|---|---|
-| <img width="400" alt="Workspace Dashboard" src="https://github.com/user-attachments/assets/94f3916b-4366-4859-bcb4-5894dd17e1d1" />
- | <img width="400" alt="Diagnostic Report"  src="https://github.com/user-attachments/assets/8f4f68e4-63df-4699-bbf9-37bf2528846f" />
- |
+|:---:|:---:|
+| <img width="400" alt="Workspace Dashboard" src="https://github.com/user-attachments/assets/94f3916b-4366-4859-bcb4-5894dd17e1d1" /> | <img width="400" alt="Diagnostic Report" src="https://github.com/user-attachments/assets/8f4f68e4-63df-4699-bbf9-37bf2528846f" /> |
 
 | Quick Wins & High Priority | Per-Page Breakdown |
-|---|---|
-| <img width="400" alt="Quick Wins and High Priority" src="https://github.com/user-attachments/assets/b1fcf20c-bf32-4972-87fe-a67d4778a59c" />
- | <img width="400" alt="Per-Page Breakdown" src="https://github.com/user-attachments/assets/e932c05c-63a2-4dfd-836e-8eaadd0c4360" />
- |
+|:---:|:---:|
+| <img width="400" alt="Quick Wins and High Priority" src="https://github.com/user-attachments/assets/b1fcf20c-bf32-4972-87fe-a67d4778a59c" /> | <img width="400" alt="Per-Page Breakdown" src="https://github.com/user-attachments/assets/e932c05c-63a2-4dfd-836e-8eaadd0c4360" /> |
 
 ## 🧭 How It Works
 
@@ -108,7 +103,7 @@ Try it here: **[uxelo-web-project-1nos.vercel.app](https://uxelo-web-project-1no
 ## 👤 Author
 
 **Misbah Islam**
-**BSCS Student | Flutter Developer | MERN Stack Developer**
+BSCS Student | Flutter Developer | MERN Stack Developer
 [GitHub](https://github.com/Misbah-Islam) · [Live Project](https://uxelo-web-project-1nos.vercel.app/)
 
 ---
