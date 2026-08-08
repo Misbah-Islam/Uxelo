@@ -5,13 +5,13 @@
 Uxelo is an AI-powered UI/UX analysis platform. Upload a screenshot of any screen and Uxelo runs a targeted, automated inspection across accessibility, layout, and visual hierarchy guidelines — no manual checklists, no guesswork.
 
 <p align="center">
-  <img src="./screenshots/01-landing.png" alt="Uxelo Landing Page" width="800"/>
+  PASTE_SCREENSHOT_1
 </p>
 
 <p align="center">
   <a href="https://uxelo-web-project-1nos.vercel.app/"><b>🚀 Live Demo</b></a> ·
-  <a href="#getting-started"><b>Setup Guide</b></a> ·
-  <a href="#features"><b>Features</b></a>
+  <a href="#-how-it-works"><b>How It Works</b></a> ·
+  <a href="#-features"><b>Features</b></a>
 </p>
 
 <p align="center">
@@ -43,109 +43,55 @@ Manually auditing a product's UI/UX for accessibility and design consistency is 
 
 | Workspace Dashboard | Diagnostic Report |
 |---|---|
-| ![Dashboard](./screenshots/02-dashboard.png) | ![Diagnostic Report](./screenshots/03-diagnostic-report.png) |
+| PASTE_SCREENSHOT_2 | PASTE_SCREENSHOT_3 |
 
 | Quick Wins & High Priority | Per-Page Breakdown |
 |---|---|
-| ![Quick Wins](./screenshots/04-quick-wins-priority.png) | ![Project Pages](./screenshots/05-project-pages.png) |
+| PASTE_SCREENSHOT_4 | PASTE_SCREENSHOT_5 |
 
-## 🧠 How It Works
+## 🧭 How It Works
 
-1. **Create a project** and give it a name.
-2. **Upload screenshots** of the screens you want audited (up to 5 per project on the free plan).
-3. Uxelo's analyzer inspects each screenshot against accessibility, layout, and hierarchy guidelines using Gemini Vision.
-4. View **UI and UX scores** per page and across the whole project.
-5. Review issues sorted into **Quick Wins** and **High Priority**, each tagged to the page it belongs to.
-6. **Export a PDF report** — for the full project or for a single screenshot — to share with your team.
+<div align="center">
+
+| Step | What Happens |
+|:---:|---|
+| 🗂️ **1. Create a Project** | Start a new project and give it a name — this is your workspace for a set of related screens. |
+| 📤 **2. Upload Screenshots** | Drop in up to 5 screenshots per project — homepages, dashboards, checkouts, anything you want reviewed. |
+| 🔍 **3. AI Analyzes Instantly** | Gemini Vision inspects every screen against accessibility, layout, and visual hierarchy guidelines — no checklists, no waiting. |
+| 📊 **4. Get Scored Results** | Each page receives a UI Score and UX Score out of 100, rolled up into a project-wide average. |
+| 🚦 **5. Review Prioritized Fixes** | Issues are sorted into ⚡ **Quick Wins** and 🔴 **High Priority**, each tagged to the exact page they belong to. |
+| 📄 **6. Export Your Report** | Download a polished PDF — for the whole project or just one screenshot — ready to share with your team. |
+
+</div>
 
 ## 🛠️ Tech Stack
 
-**Frontend**
-- React + Vite
-- Tailwind CSS
-- Framer Motion
+<div align="center">
 
-**Backend**
-- Node.js + Express
-- MongoDB
+### Frontend
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Framer Motion](https://img.shields.io/badge/Framer_Motion-black?style=for-the-badge&logo=framer&logoColor=blue)
 
-**AI / Analysis**
-- Gemini Vision API (`gemini-2.0-flash`)
+### Backend
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
+![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
 
-**Infrastructure**
-- Cloudinary — image storage
-- JWT + Google OAuth — authentication
-- Vercel — deployment
+### AI & Infrastructure
+![Gemini](https://img.shields.io/badge/Gemini_Vision-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white)
+![Cloudinary](https://img.shields.io/badge/Cloudinary-3448C5?style=for-the-badge&logo=cloudinary&logoColor=white)
+![JWT](https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=jsonwebtokens&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-black?style=for-the-badge&logo=vercel&logoColor=white)
 
-## 🚀 Getting Started
-
-### Prerequisites
-- Node.js (v18+)
-- MongoDB instance (local or Atlas)
-- Gemini API key
-- Cloudinary account
-- Google OAuth credentials
-
-### Installation
-
-```bash
-# Clone the repository
-git clone https://github.com/Misbah-Islam/Uxelo.git
-cd Uxelo
-```
-
-**Backend setup**
-```bash
-cd server
-npm install
-```
-
-Create a `.env` file inside `server/`:
-```env
-PORT=5000
-MONGO_URI=your_mongodb_connection_string
-JWT_SECRET=your_jwt_secret
-GEMINI_API_KEY=your_gemini_api_key
-CLOUDINARY_CLOUD_NAME=your_cloudinary_cloud_name
-CLOUDINARY_API_KEY=your_cloudinary_api_key
-CLOUDINARY_API_SECRET=your_cloudinary_api_secret
-GOOGLE_CLIENT_ID=your_google_oauth_client_id
-GOOGLE_CLIENT_SECRET=your_google_oauth_client_secret
-```
-
-```bash
-npm run dev
-```
-
-**Frontend setup**
-```bash
-cd ../client
-npm install
-```
-
-Create a `.env` file inside `client/`:
-```env
-VITE_API_BASE_URL=http://localhost:5000
-VITE_GOOGLE_CLIENT_ID=your_google_oauth_client_id
-```
-
-```bash
-npm run dev
-```
-
-The app will be available at `http://localhost:5173`.
+</div>
 
 ## 🌐 Live Demo
 
 Try it here: **[uxelo-web-project-1nos.vercel.app](https://uxelo-web-project-1nos.vercel.app/)**
 
-## 📁 Project Structure
-
-```
-Uxelo/
-├── client/          # React + Vite frontend
-└── server/          # Node/Express backend
-```
+> 🔒 The source code is currently in a private repository. This repo exists to showcase the project — feel free to reach out if you'd like access.
 
 ## 📌 Roadmap
 
