@@ -102,8 +102,8 @@ Try it here: **[uxelo-web-project-1nos.vercel.app](https://uxelo-web-project-1no
 
 ## 👤 Author
 
-**Misbah Islam**
-**BSCS Student | Flutter Developer | MERN Stack Developer**
+**Misbah Islam**<br>
+**BSCS Student | Flutter Developer | MERN Stack Developer**<br>
 [GitHub](https://github.com/Misbah-Islam) · [Live Project](https://uxelo-web-project-1nos.vercel.app/)
 
 ---
